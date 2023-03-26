@@ -17,6 +17,9 @@ BookFinder è un sistema software il cui obbiettivo è quello di permettere agli
 
 - **Account multi-servizi Servizi cognitivi**: è un account di Azure che consente di accedere a una vasta gamma di servizi cognitivi di Microsoft, tra cui la visione artificiale, il riconoscimento vocale e la comprensione del linguaggio naturale. Con questo account, è possibile utilizzare questi servizi per aggiungere funzionalità di intelligenza artificiale alle proprie applicazioni.
 
+- **Azure SQL***: è un servizio di database relazionale gestito offerto da Microsoft Azure, progettato per supportare tutte le funzionalità del database SQL Server e per fornire un'esperienza di gestione dei dati scalabile e sicura per le applicazioni aziendali.
+
+
 ## ☁ Vantaggi offerti da un ambiente cloud ☁
 
 WIP...
@@ -25,6 +28,15 @@ WIP...
 ## 💻 Arhitettura del sistema 💻 
 
 WIP....
+
+### 🔎 Tipi di risorse utilizzate 🔎
+- Bot di Azure
+- Servizio app
+- App Spring di Azure
+- Bing Search
+- Language Understanding (LUIS)
+- Account multi-servizi Servizi cognitivi
+- Azure SQL
 
 ### 🛠 Installazione e manule d'uso 🛠
 
