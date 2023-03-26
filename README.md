@@ -1,9 +1,9 @@
-# 📚 BookFinderBot
+# 📚 Book Finder
 
 ## Descrizione
 BookFinder è un sistema software il cui obbiettivo è quello di permettere agli utenti di trovare libri e di catagolarli comodamente attraverso un bot Telegram. Gli utenti potranno cercare comodamente tramite foto o testo i propri libri e aggiungerli ai preferiti tutto tramite il bot messo a disposizione
 
-## 🌐 Descrizione dei servizi utlizzati
+## 🌐 Descrizione dei servizi utlizzati 🌐
 
 - **Bot di Azure**: è un servizio di Azure che consente di creare bot conversazionali altamente scalabili e personalizzati, che possono interagire con gli utenti tramite diverse piattaforme come Facebook Messenger, Skype, Slack e altri.
 
@@ -17,11 +17,18 @@ BookFinder è un sistema software il cui obbiettivo è quello di permettere agli
 
 - **Account multi-servizi Servizi cognitivi**: è un account di Azure che consente di accedere a una vasta gamma di servizi cognitivi di Microsoft, tra cui la visione artificiale, il riconoscimento vocale e la comprensione del linguaggio naturale. Con questo account, è possibile utilizzare questi servizi per aggiungere funzionalità di intelligenza artificiale alle proprie applicazioni.
 
-## ☁ Vantaggi offerti da un ambiente cloud
+## ☁ Vantaggi offerti da un ambiente cloud ☁
 
 WIP...
 
 
-## Arhitettura del sistema
+## 💻 Arhitettura del sistema 💻 
 
 WIP....
+
+### 🛠 Installazione e manule d'uso 🛠
+
+L'installazione dei servizi creati sono ritovabili nelle repo dedicate:
+
+- Bot Telegram (BookFinderBot)
+- Sito Web (BookFinderWebSite)
