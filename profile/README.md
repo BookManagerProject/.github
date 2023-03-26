@@ -42,5 +42,5 @@ WIP....
 
 L'installazione dei servizi creati sono ritovabili nelle repo dedicate:
 
-- Bot Telegram (BookFinderBot)
-- Sito Web (BookFinderWebSite)
+- [Bot Telegram (BookFinderBot)](https://github.com/BookManagerProject/BookFinderBot)
+- [Sito Web (BookFinderWebSite)](https://github.com/BookManagerProject/BookFinderWebsite)
