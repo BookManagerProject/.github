@@ -22,12 +22,36 @@ BookFinder è un sistema software il cui obbiettivo è quello di permettere agli
 
 ## ☁ Vantaggi offerti da un ambiente cloud ☁
 
-WIP...
+L'utilizzo di un ambiente cloud come Azure offre numerosi vantaggi in termini di flessibilità, sicurezza, scalabilità e affidabilità. Di seguito sono riportati alcuni vantaggi specifici dei servizi citati:
 
+- Bot di Azure: gli ambienti cloud offrono la flessibilità di implementare facilmente bot su diverse piattaforme di messaggistica, senza dover preoccuparsi di gestire l'infrastruttura sottostante. Inoltre, Azure fornisce servizi avanzati di AI e machine learning che consentono ai bot di comprendere il linguaggio naturale e di fornire risposte più intelligenti e personalizzate.
+
+- Servizio app: l'utilizzo di un ambiente cloud per ospitare le applicazioni offre numerosi vantaggi in termini di scalabilità e disponibilità. Ad esempio, Azure consente di scalare automaticamente le risorse del servizio app in base alla richiesta di traffico, in modo che le applicazioni siano sempre disponibili e performanti.
+
+- Bing Search: l'utilizzo di un servizio di ricerca come Bing Search offre vantaggi significativi in termini di velocità e precisione. Inoltre, Azure consente di personalizzare la ricerca utilizzando API e servizi avanzati di machine learning, in modo che i risultati della ricerca siano sempre pertinenti e pertinenti.
+
+- Servizi cognitivi: l'utilizzo di servizi di intelligenza artificiale come il riconoscimento del testo da un'immagine offre numerosi vantaggi in termini di automazione dei processi e miglioramento dell'esperienza utente. Ad esempio, Azure consente di utilizzare l'API di Visione artificiale per identificare gli oggetti nelle immagini e di utilizzare l'API di Riconoscimento vocale per trasformare il parlato in testo.
+
+- Azure SQL: l'utilizzo di un database SQL come Azure SQL offre numerosi vantaggi in termini di prestazioni, scalabilità e sicurezza. Ad esempio, Azure SQL offre funzionalità avanzate di scalabilità orizzontale e verticale, consentendo di gestire grandi quantità di dati in modo efficiente e affidabile.
+
+In generale, l'utilizzo di un ambiente cloud come Azure offre numerosi vantaggi in termini di riduzione dei costi, flessibilità, sicurezza e prestazioni, consentendo di concentrarsi sullo sviluppo dell'applicazione e sul miglioramento dell'esperienza utente, senza doversi preoccupare dell'infrastruttura sottostante.
 
 ## 💻 Arhitettura del sistema 💻 
 
-WIP....
+![Architettura del sistema](../image/architettura.png)
+
+L'immagine di cui sopra ci mostra l'architettura del sistema Book Finder, in cui vengono riassunte tutte le interazioni tra le componenti software.
+
+La lettura del diagramma può iniziare dalla Azure Web App: La quale è il cuore pulsante dell'Azure Bot, esso è il suo endpoint di messagistica che risponde ale richieste ricevute attraverso Telegram
+
+I comandi vengono intepretati da LUIS il quale è stato addestrato a risponere ad una serie di comandi.
+
+Tra le funzionalità offerte c'è la ricerca dei libri che sfrutta i servizi di riconoscimento immagine per cercare un libro dalla sua copertina, o in alternativa tramite testo il quale viene ricercato su Bing e poi dati in pasto alle Google Book API per migliorare l'area di ricerca
+
+Gli utenti del sistema possono salvare i libri nei preferiti e qui entra in gioco Azure SQL che memorizza le preferenze di ricerca e i prferiti degli utenti
+
+Infine, App Spring di Azure espone un sito web su cui è possibile consultare le classifiche dei libri preferiti dagli utenti e i libri cercati con più frequenza
+
 
 ### 🔎 Tipi di risorse utilizzate 🔎
 - Bot di Azure
@@ -44,3 +68,15 @@ L'installazione dei servizi creati sono ritovabili nelle repo dedicate:
 
 - [Bot Telegram (BookFinderBot)](https://github.com/BookManagerProject/BookFinderBot)
 - [Sito Web (BookFinderWebSite)](https://github.com/BookManagerProject/BookFinderWebsite)
+
+## 📸 Screenshoot del sistema 📸
+
+### BookFinderWebSite
+#### Libri più cercati
+![Libri più cercati](../image/libri più cercati.png)
+#### Libri preferiti
+![Libri preferiti](../image/libri preferiti.png)
+* **
+### Book Finder Bot
+
+WIP...
