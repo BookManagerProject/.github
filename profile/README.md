@@ -38,7 +38,7 @@ In generale, l'utilizzo di un ambiente cloud come Azure offre numerosi vantaggi 
 
 ## 💻 Arhitettura del sistema 💻 
 
-![Architettura del sistema](../image/architettura.png)
+![Architettura del sistema](https://github.com/BookManagerProject/.github/blob/main/image/architettura.png?raw=true)
 
 L'immagine di cui sopra ci mostra l'architettura del sistema Book Finder, in cui vengono riassunte tutte le interazioni tra le componenti software.
 
@@ -73,9 +73,9 @@ L'installazione dei servizi creati sono ritovabili nelle repo dedicate:
 
 ### BookFinderWebSite
 #### Libri più cercati
-![Libri più cercati](../image/libri_più_cercati.png)
+![Libri più cercati](https://github.com/BookManagerProject/.github/blob/main/image/libri_pi%C3%B9_cercati.png?raw=true)
 #### Libri preferiti
-![Libri preferiti](../image/libri_preferiti.png)
+![Libri preferiti](https://github.com/BookManagerProject/.github/blob/main/image/libri_preferiti.png?raw=true)
 * **
 ### Book Finder Bot
 
