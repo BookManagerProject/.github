@@ -78,5 +78,9 @@ L'installazione dei servizi creati sono ritovabili nelle repo dedicate:
 ![Libri preferiti](https://github.com/BookManagerProject/.github/blob/main/image/libri_preferiti.png?raw=true)
 * **
 ### Book Finder Bot
-
-WIP...
+#### Ricerca libro tramite testo
+![Ricerca libro](https://github.com/BookManagerProject/.github/blob/main/image/bot1.png?raw=true)
+#### Ricerca libro tramite immaggine
+![Ricerca libro tramite immaggine](https://github.com/BookManagerProject/.github/blob/main/image/bot2.png?raw=true)
+#### Aggiunta preferiti
+![Aggiunta preferiti](https://github.com/BookManagerProject/.github/blob/main/image/bot3.png?raw=true)
