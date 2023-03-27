@@ -73,9 +73,9 @@ L'installazione dei servizi creati sono ritovabili nelle repo dedicate:
 
 ### BookFinderWebSite
 #### Libri più cercati
-![Libri più cercati](../image/libri più cercati.png)
+![Libri più cercati](../image/libri_più_cercati.png)
 #### Libri preferiti
-![Libri preferiti](../image/libri preferiti.png)
+![Libri preferiti](../image/libri_preferiti.png)
 * **
 ### Book Finder Bot
 
