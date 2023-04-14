@@ -64,7 +64,7 @@ Infine, App Spring di Azure espone un sito web su cui è possibile consultare le
 
 ### 🛠 Installazione e manule d'uso 🛠
 
-L'installazione dei servizi creati sono ritovabili nelle repo dedicate:
+L'installazione dei servizi creati sono ritrovabili nelle repo dedicate:
 
 - [Bot Telegram (BookFinderBot)](https://github.com/BookManagerProject/BookFinderBot)
 - [Sito Web (BookFinderWebSite)](https://github.com/BookManagerProject/BookFinderWebsite)
